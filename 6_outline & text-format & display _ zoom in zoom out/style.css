@@ -1,0 +1,72 @@
+.table1{
+    border: 2px solid red;
+    outline: 2px dotted blue;
+}
+
+.font1{
+    color: blue;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.div1{
+    text-align: right;
+}
+
+.link1{
+    text-decoration: none;
+}
+
+.font2{
+    /* text-transform: capitalize; */
+    text-transform: uppercase;
+}
+
+.font3{
+ text-transform: lowercase;
+}
+
+.font4{
+    /* word-spacing: 20px; */
+    color: red;
+    text-shadow:2px 2px blue;
+}
+
+.font5{
+    padding: 20%;
+    color: blueviolet;
+   font-size: 1.4em;
+}
+
+.font6:hover{
+    color: blue;
+    background-color: bisque;
+}
+
+.btn1:hover{
+    color: white;
+    background-color: black;
+    font-size: 30px;
+}
+
+/* zoom in zoom out */
+.img1{
+    max-height: 200px;
+    max-width: 300px;
+}
+.img1:hover{
+    transform: scale(1.5);
+}
+
+
+.box1{
+    size: 100px;
+    width: 200px;
+    background-color: blue;
+    display: inline-block;
+}
+.box2{
+    size: 100px;
+    width: 200px;
+    background-color: yellow;
+    display: inline-block;
+}

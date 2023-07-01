@@ -1,0 +1,16 @@
+* for implement 'text-alight' property we need a div tag and inside that we can implement this.
+* texy-transform:
+a. capitalize: convert all words first letter to uppercase
+b. em : o allow users to resize the text (in the browser menu), many developers use em instead of pixels.
+1em is equal to the current font size. The default text size in browsers is 16px. So, the default size of 1em is 16px.
+
+** zoom in zoom out
+.img1{
+    max-height: 200px;
+    max-width: 300px;
+}
+.img1:hover{
+    transform: scale(1.5);
+}
+
+
